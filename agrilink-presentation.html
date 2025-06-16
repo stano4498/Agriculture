@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Project Overview - AgriLink</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -41,6 +41,26 @@
       margin: 0;
       line-height: 1.6;
     }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      background-color: #27ae60;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #219150;
+    }
+
+    .button-container {
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -70,7 +90,7 @@
 
     <div class="section">
       <h3>Tech Stack Used</h3>
-      <p>HTML5, CSS , Google Maps Embed API, Responsive Design</p>
+      <p>HTML, CSS, Google Maps Embed API, Responsive Design</p>
     </div>
 
     <div class="section">
@@ -91,6 +111,10 @@
     <div class="section">
       <h3>Future Improvements</h3>
       <p>User login, real-time weather API, chatbot support, e-commerce tools, multilingual support.</p>
+    </div>
+
+    <div class="button-container">
+      <a class="back-button" href="index.html">← Back to Home</a>
     </div>
   </div>
 </body>
