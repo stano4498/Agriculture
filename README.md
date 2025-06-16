@@ -31,15 +31,13 @@ testimonials.html – Customer testimonials (with styled cards)
 precision.html – Info on precision agriculture techniques
 
 contact.html – Contact form + embedded map
+📋 Table of Contents
+About the Project
 
+Features
 
+Pages Included
 
+How to Use
 
-
-
-
-
-
-
-
-
+Social Media
